@@ -2,8 +2,6 @@
 This spreadsheet acts as a password protected payment history portal
 ## Situation
 
-***
-
 * Customers at a learning academy did not have access to their payment history for their individual student. As a result, they were often confused about past payments and were not sure when to expect when another Payment was due.  Since giving them access to their personal history would enable them to have knowledge about their past payments, a new portal would need to be created for access.
 ## Task
 
