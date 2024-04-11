@@ -1,28 +1,18 @@
 # Payment-History-Portal
 This spreadsheet acts as a password protected payment history portal
 ## Situation
-
 * Customers at a learning academy did not have access to their payment history for their individual student. As a result, they were often confused about past payments and were not sure when to expect when another Payment was due.  Since giving them access to their personal history would enable them to have knowledge about their past payments, a new portal would need to be created for access.
 ## Task
-
-***
-
 **A Few Things to Consider**
 * Since payment information is meant to be kept private, each customer would need a passkey as identification and to allow them into the spreadsheet
 * The information needed for this spreadsheet is already recorded and stays up to date in _another_ spreadsheet. (For this GitHub example, I've chosen to put the data within the same spreadsheet) Then the information is then queried to the current sheet.
 ## Method
-
-***
-
 * Have an accurate and up to date record of all student lessons and payments
 * Use Google Apps Script to:
   * Generate an alert that prompts the user for a passkey
   * Create a new blank spreadsheet where specific information based on the passkey entered will populate the rows
   * Enable each user to see their payment history in a efficient and cohesive manner
 ## Sample Sheet and Results
-
-***
-
 [USE THE SAMPLE SPREADSHEET HERE](https://docs.google.com/spreadsheets/d/1vE5K8VghNGc4zUb-PTDjudg1maEpeeZihRpkhA2uFEc/edit?usp=sharing)
 
 The Home Page (Home Page - Start Here) gives the user instructions on how to navigate the spreadsheet. In order to start the script that runs the **START CALCULATOR** button, the user must use a signed in Google Account and accept the permissions of the new application.
