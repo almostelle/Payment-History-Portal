@@ -14,11 +14,12 @@ This spreadsheet acts as a password protected payment history portal
   * Enable each user to see their payment history in a efficient and cohesive manner
 ### Google Apps Script
 [See the Google Apps Script functions]()
+
 **Functions created in PasswordProtect**
 *idPopUp()
  - Generates an alert that prompts the user to insert a Student ID. The alert will remain until the user provides a valid Student ID
  -  The valid IDs are stored within this function
- -  When a valid ID is entered, idPopup calls the function insertSheet(), inserts the valid ID in a determined cell, sets the name of the new shet to the student ID, and imports an image that functions as the finishSession button
+ -  When a valid ID is entered, idPopup calls the function insertSheet(), inserts the valid ID in a determined cell, sets the name of the new sheet to the student ID, and imports an image that functions as the finishSession button
 * insertSheet()
  - Creates the new sheet and sets formulas in each cell that are responsible for quering/importing the data from the other sheet
     - In the original example, the inforrmation is queried from a sheet OUTSIDE of the current spreadsheet
@@ -31,4 +32,4 @@ The Home Page (Home Page - Start Here) gives the user instructions on how to nav
 
 After doing so, the user can copy a Student ID from Sheet 2 (Student_IDs), generate the alert box with the button, then paste the copied ID into the prompt. A new sheet will be created that holds the data pertaining to the student whose ID was chosen. 
 
-When the user is finished with the new sheet, they must click the X button in A3 to close the session and delete the page. They will be returned to the home page. 
+When the user is finished with the new sheet, they must click the X button in cell A3 to close the session and delete the page. They will be returned to the home page. 
