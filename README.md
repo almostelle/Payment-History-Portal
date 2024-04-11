@@ -12,6 +12,18 @@ This spreadsheet acts as a password protected payment history portal
   * Generate an alert that prompts the user for a passkey
   * Create a new blank spreadsheet where specific information based on the passkey entered will populate the rows
   * Enable each user to see their payment history in a efficient and cohesive manner
+### Google Apps Script
+[See the Google Apps Script functions]()
+**Functions created in PasswordProtect**
+*idPopUp()
+ - Generates an alert that prompts the user to insert a Student ID. The alert will remain until the user provides a valid Student ID
+ -  The valid IDs are stored within this function
+ -  When a valid ID is entered, idPopup calls the function insertSheet(), inserts the valid ID in a determined cell, sets the name of the new shet to the student ID, and imports an image that functions as the finishSession button
+* insertSheet()
+ - Creates the new sheet and sets formulas in each cell that are responsible for quering/importing the data from the other sheet
+    - In the original example, the inforrmation is queried from a sheet OUTSIDE of the current spreadsheet
+ - 
+
 ## Sample Sheet and Results
 [USE THE SAMPLE SPREADSHEET HERE](https://docs.google.com/spreadsheets/d/1vE5K8VghNGc4zUb-PTDjudg1maEpeeZihRpkhA2uFEc/edit?usp=sharing)
 
